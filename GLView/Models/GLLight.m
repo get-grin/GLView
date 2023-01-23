@@ -46,7 +46,7 @@
 {
     if ((self = [super init]))
     {
-        self.ambientColor = [UIColor colorWithWhite:0.2 alpha:1.0];
+        self.ambientColor = [UIColor colorWithWhite:0.8 alpha:1.0];
         self.diffuseColor = [UIColor whiteColor];
         self.specularColor = [UIColor whiteColor];
         self.transform = CATransform3DMakeTranslation(0.0, 0.0, 1.0);
